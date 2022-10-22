@@ -10,7 +10,6 @@ client.on("ready", () => {
             name: `y!help | 正在輸入....`,
         }
     });
-
 });
 
 client.on('message', msg => {
@@ -34,9 +33,7 @@ client.on('message', msg => {
             .addField('開始typing', 'y!start', true)
             .addField('停止typing', 'y!stop', true)
             .addField('邀請typing', 'y!inv', true);
-
         msg.channel.send(embed);
-
     }
     if (msg.content === 'y!inv') {
         msg.channel.send(
@@ -45,11 +42,6 @@ client.on('message', msg => {
             .setTimestamp()
             .setDescription(
                 "[點我邀請機器人](https://discord.com/api/oauth2/authorize?client_id=880066660738949170&permissions=84992&scope=bot)"
-
-
-
-
-
             )
         );
     }
