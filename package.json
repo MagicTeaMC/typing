@@ -1,0 +1,17 @@
+{
+    "name": "typing",
+    "version": "2.0.0",
+    "description": "easy discord.js typing bot",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "keywords": [
+        "djs"
+    ],
+    "author": "Maoyue",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "discord.js": "12.5.3"
+    }
+}
