@@ -38,11 +38,11 @@ client.on('message', msg => {
     if (msg.content === 'y!inv') {
         msg.channel.send(
             new Discord.MessageEmbed()
-            .setColor("BLUE")
-            .setTimestamp()
-            .setDescription(
-                "[點我邀請機器人](https://discord.com/api/oauth2/authorize?client_id=880066660738949170&permissions=84992&scope=bot)"
-            )
+                .setColor("BLUE")
+                .setTimestamp()
+                .setDescription(
+                    "[點我邀請機器人](https://discord.com/api/oauth2/authorize?client_id=880066660738949170&permissions=84992&scope=bot)"
+                )
         );
     }
 });
